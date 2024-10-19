@@ -1,9 +1,6 @@
-# Запрашиваем 2 числа
-number1 = float(input("Введите первое число: "))
-number2 = float(input("Введите второе число: "))
-
-# Наименьшее число
-result = number1 if number1 < number2 else number2 if number1 > number2 else "Числа равны"
-
-# Выводим
-print(result)
+a=int(input("Введите целое число: "))
+b=int(input("Введите целое число: "))
+if a < b:
+    print("Наименьшее число ", a)
+elif a > b:
+    print("Наименьшее число ", b)
